@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width", initial-scae="1">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
 
 </head>
@@ -23,10 +23,6 @@
                 <h2>Welcome</h2>
                 <div class="input-div focus">
 
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-
                     <div id="user-email">
                         <h5>Email</h5>
                         <input class="input" type="email"/>
@@ -35,10 +31,6 @@
 
                 <div class="input-div focus">
 
-                    <div class="i">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                
                     <div id="user-password">
                         <h5>Password</h5>
                         <input class="input" type="password"/>
@@ -47,7 +39,9 @@
 
                 <a href="#">Forgot Password?</a>
 
-                <input type="submit" class="btn" value="Login">
+                <div>
+                    <input type="submit" class="btn" value="Login" onclick="validateLogin()">
+                </div>
             </form>
         </div>
     </div>

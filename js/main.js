@@ -1,1 +1,3 @@
-console.log("Welcome to login/signup page")
+function validateLogin(){
+    console.log("Welcome to my Website.");
+}
